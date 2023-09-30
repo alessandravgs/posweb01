@@ -1,0 +1,104 @@
+
+body { background: #d2d2c1; 
+    font: 16px Arial, Helvetica, sans-serif;}
+
+#menu {background-color: #4F83FA;padding: 18px; text-align:right;} 
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #111;
+  }
+  
+  a.contato:hover{font-size:150%;  background: #04AA6D;}
+
+  main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.content {
+    text-align: center;
+}
+
+.content img {
+    max-width: 100%;
+    height: auto;
+}
+
+.content p {
+    margin-top: 20px;
+}
+
+p.rodape{text-align: center;}
+
+footer {
+    background-color: #4F83FA;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+  #contatos {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  #contatos td, #contatos th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  #contatos tr:nth-child(even){background-color: #f2f2f2;}
+  
+  #contatos tr:hover {background-color: #ddd;}
+  
+  #contatos th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #4F83FA;
+    color: white;
+  }
+
+  .sobre {
+    width: 100%;
+    min-height: 600px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column; 
+    align-items: center; 
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    transition: background-color 0.3s;
+}
+
+
